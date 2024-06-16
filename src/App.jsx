@@ -25,7 +25,7 @@ function App() {
   console.log("location", location)
   return (
     <div>
-      <img className='image' src="src/components/images/image_logo.jpg" alt="" />
+      <img className='image' src="src/components/images/image-fondo.jpg" alt="" />
       <h1 className='card__title'>Rick and Morty</h1>
       <form className='card__form' onSubmit={handleSubmit}>
         <input required id='input' placeholder={locationId} ref={inputId} type="number" />
